@@ -10,10 +10,10 @@ div,a { box-sizing:border-box; }
 a { text-decoration:none; color:#093753; -webkit-tap-highlight-color:rgba(0,0,0,0); }
 a:focus { outline:none; }
 img { width:100%; height:auto; border-style:none; -moz-user-select:none; -webkit-user-select:none; -ms-user-select:none; user-select:none; -webkit-user-drag:none; user-drag:none; pointer-events:none; }
-.mac { font-family:'Lato','游ゴシック','Yu Gothic',YuGothic,'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ ゴシック',sans-serif; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
-.win { font-family:'Lato','游ゴシック Medium','Yu Gothic Medium','游ゴシック','Yu Gothic',YuGothic,'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ ゴシック',sans-serif; }
+.mac { font-family: 'Be Vietnam Pro', sans-serif;-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+.win { font-family: 'Be Vietnam Pro', sans-serif; }
 .kerning { font-feature-settings:"palt"; }
-.ja0 { font-family:'游明朝',YuMincho,'Hiragino Mincho ProN','Hiragino Mincho Pro','ＭＳ 明朝',serif; }
+.ja0 {font-family: 'Be Vietnam Pro', sans-serif; }
 .en0 { font-family:'Cinzel',serif; }
 .clear { clear:both; }
 .opa,.scroll_element { opacity:0; }
@@ -441,7 +441,7 @@ img { width:100%; height:auto; border-style:none; -moz-user-select:none; -webkit
 }
 .menu_list > div:nth-child(1) p {
 	color:#ffffff;
-	font-family:'Lato','游ゴシック','Yu Gothic',YuGothic,'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ ゴシック',sans-serif;
+	font-family: 'Be Vietnam Pro', sans-serif;
 	font-weight:600;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
