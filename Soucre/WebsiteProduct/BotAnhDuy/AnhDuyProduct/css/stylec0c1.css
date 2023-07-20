@@ -940,7 +940,7 @@ img { width:100%; height:auto; border-style:none; -moz-user-select:none; -webkit
 	#company .contents_main_title { margin:-45px 0 0 0; }
 	#notices .contents_main_title { margin:-45px 0 0 0; }	
 	#contact .contents_main_title { margin:-75px 0 0 0; }	
-	.contents_main_logo { width:64px; top:10px; left:20px; margin:0; }	
+	.contents_main_logo { width:64px; top:10px; left:20px; margin:-5px; }	
 	.contents_main_button { height:38px; bottom:22px; right:20px; margin:0; }
 	.contents_main_button a p { line-height:38px; }
 	.contents_detail { padding:30px 0 30px 0; }
