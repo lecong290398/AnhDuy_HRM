@@ -19,6 +19,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\StyleTemplate\**" />
+    <Content Remove="wwwroot\StyleTemplate\**" />
+    <EmbeddedResource Remove="wwwroot\StyleTemplate\**" />
+    <None Remove="wwwroot\StyleTemplate\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="App.config" />
     <None Update="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

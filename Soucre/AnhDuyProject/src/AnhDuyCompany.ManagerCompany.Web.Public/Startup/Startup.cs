@@ -1,9 +1,11 @@
-﻿using System;
-using Abp.AspNetCore;
+﻿using Abp.AspNetCore;
 using Abp.AspNetCore.Configuration;
 using Abp.AspNetCore.Mvc.Extensions;
 using Abp.AspNetCore.SignalR.Hubs;
 using Abp.Castle.Logging.Log4Net;
+using AnhDuyCompany.ManagerCompany.Configuration;
+using AnhDuyCompany.ManagerCompany.Identity;
+using AnhDuyCompany.ManagerCompany.Web.HealthCheck;
 using Castle.Facilities.Logging;
 using HealthChecks.UI.Client;
 using HealthChecks.UI.Configuration;
@@ -16,9 +18,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using AnhDuyCompany.ManagerCompany.Configuration;
-using AnhDuyCompany.ManagerCompany.Identity;
-using AnhDuyCompany.ManagerCompany.Web.HealthCheck;
+using System;
 
 namespace AnhDuyCompany.ManagerCompany.Web.Public.Startup
 {
@@ -90,9 +90,9 @@ namespace AnhDuyCompany.ManagerCompany.Web.Public.Startup
             {
                 endpoints.MapHub<AbpCommonHub>("/signalr");
 
-                endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-                
+                endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=HomeIndex}/{id?}");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=HomeIndex}/{id?}");
+
                 app.ApplicationServices.GetRequiredService<IAbpAspNetCoreConfiguration>().EndpointConfiguration.ConfigureAllEndpoints(endpoints);
             });
 
