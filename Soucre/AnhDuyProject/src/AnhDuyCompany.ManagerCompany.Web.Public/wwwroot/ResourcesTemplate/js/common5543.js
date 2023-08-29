@@ -34,7 +34,7 @@ function commonSetting(){
 function pageSetting(){	
 	if(slideFlg0 == true){
 		slideFlg0 = false;
-		slide0.stopAuto();	
+	/*	slide0.stopAuto();	*/
 	}
 	nowUrl = location.href;
 	if(nowUrl.match(/product/)){
@@ -630,8 +630,8 @@ $(document).on('pjax:timeout', function() {
 $(document).on('pjax:end',function(){
 	commonSetting();
 	pageSetting();  
-	var newPath = window.location.pathname + window.location.search;
-	ga('send','pageview',newPath);
+	//var newPath = window.location.pathname + window.location.search;
+	//ga('send','pageview',newPath);
 });
 
 

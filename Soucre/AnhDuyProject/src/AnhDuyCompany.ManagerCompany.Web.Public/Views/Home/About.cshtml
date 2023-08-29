@@ -1,0 +1,221 @@
+﻿@using System.Threading.Tasks
+@using AnhDuyCompany.ManagerCompany.Web.Public.Startup
+@using CultureHelper = AnhDuyCompany.ManagerCompany.Localization.CultureHelper
+@{
+	ViewBag.CurrentPageName = FrontEndPageNames.About;
+}
+
+<!--/CONTENTS/-->
+<div id="top" class="contents">
+	<!--/ABOUT/-->
+	<div id="about" class="contents_inner">
+
+
+
+		<!--/MAIN/-->
+		<div class="contents_main fix_h">
+			<div class="contents_main_inner">
+				<div class="contents_main_left title_w">
+					<a href="index.html" class="contents_main_logo link"><img src="~/ResourcesTemplate/img/logo0.svg" alt="塩竈の藻塩｜塩竈製塩｜SHIOGAMA NO MOSHIO"></a>
+					<div class="contents_main_title"><img src="~/ResourcesTemplate/img/title2.svg" alt="藻塩について"></div>
+				</div>
+				<div class="contents_main_right">
+					<div class="contents_main_img"><div></div></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--/DETAIL/-->
+		<div class="contents_detail">
+			<div class="contents_detail_inner">
+
+
+
+				<div id="subtitle" class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner contents_w">
+						<div class="contents_block_subtitle"><p class="kerning en0">ABOUT</p></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left">
+							<div class="contents_block_title"><img src="~/ResourcesTemplate/img/title9.svg" alt="歴史と風土"><p class="kerning en0">HISTORY & CLIMATE</p></div>
+						</div>
+						<div class="contents_block_right">
+							<div class="about_title"><p class="kerning ja0">塩竈と製塩文化</p></div>
+							<div class="about_text">
+								<p class="kerning">塩竈市は、宮城県中央部の小さな港町です。「塩竈」とは本来、製塩用の竈（かまど）を意味します。現在の塩竈市を含む湾岸地域一帯で古くから製塩が盛んだったことに由来する地名と考えられています。<br><br>またこの地は、日本各地に塩作りを伝えた塩土老翁神（しおつちおじのかみ）が最後に訪れ、定住した土地として知られています。市内にある御釜神社では今も、塩土老翁神の製塩法を引き継ぐ「藻塩焼神事（もしおやきしんじ）」が毎年厳かに行われ、作られた塩は鹽竈神社（しおがまじんじゃ）の例大祭で奉納されます。</p>
+								<div></div>
+								<p class="kerning">Shiogama is a small port city in the middle of the Miyagi prefecture. The Japanese characters for the name Shiogama use the characters for ‘salt’ and ‘pot,’ a pot being an essential tool in salt production. Including modern day Shiogama City, this entire coastal bay area was a prosperous salt-making region during the Jomon Period (around 11,000BCE to 1,000BCE), and it is thought that this was the origin of the name “Shiogama.”<br><br>It is also believed that Shiotsuchiojinokami, the God of the Tides, who visited all parts of Japan and taught salt-making, came to Shiogama last and settled down here. This is a deeply held belief, and even in modern times at the Okama Shrine within the city limits, moshioyaki, or the heirloom Shinto ritual of making salt from seaweed, is solemnly observed each year.</p>
+							</div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left"></div>
+						<div class="contents_block_right">
+							<div class="about_illust"><img src="~/ResourcesTemplate/img/illust0.svg"></div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left"></div>
+						<div class="contents_block_right">
+							<div class="about_title"><p class="kerning ja0">塩竈・千賀ノ浦の風景</p></div>
+							<div class="about_text">
+								<p class="kerning">塩竈の海・塩釜湾は、絶景で知られる松島湾の南西部に位置しています。浅く穏やかな松島湾の海はたくさんの魚や海藻を育み、古来、湾域の住民に豊かな恵みをもたらしてきました。<br><br>「千賀ノ浦」の名で古の歌にも詠まれた塩釜湾の風景は、地域の暮らしを支える海として人々に親しまれています。</p>
+								<div></div>
+								<p class="kerning">Shiogama Bay is located in the southwestern part of Matsushima Bay, which is known for its scenery. Due to Matsushima Bay’s mild weather, the seawater is nutrient-packed and able to nurture many types of fish and seaweed.<br><br>The people here are intimately connected with the sea as an entity that supports regional life. The bay scenery visible from the city, referred to by its poetic name, Chiganoura, is praised in traditional songs called waka.</p>
+							</div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left"></div>
+						<div class="contents_block_right">
+							<div class="about_illust"><img src="~/ResourcesTemplate/img/illust1.svg"></div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left"></div>
+						<div class="contents_block_right">
+							<div class="about_title"><p class="kerning ja0">藻塩焼神事のおはなし</p></div>
+							<div class="about_text">
+								<p class="kerning">塩土老翁神の塩作りを今に伝える藻塩焼神事は、毎年7月、3日間にわたって行われます。<br><br>初日、塩竈市の隣町・七ヶ浜町の花渕浜の沖で、神馬藻（ほんだわら。海藻の一種）を刈り取ります。<br>2日目、松島湾の釜ケ淵で満潮時に潮水を汲み取り、御釜神社に運びます。<br>最終日、神馬藻で濾した潮水を鉄製の平釜に入れ、塩竈石の竈で炊き上げます。<br><br>こうしてできた藻塩は、御釜神社と鹽竈神社の神前に供えられます。</p>
+								<div></div>
+								<p class="kerning">The three day moshioyaki shinji, or the Shinto ritual of making salt out of seaweed, teaches about ancient salt-making. On the first day, seaweed grown in the open waters outside of the nearby Shichigahama Town’s Hanabushi Shrine is harvested. On the second day, at high tide water is drawn from Matsushima Bay’s Kamagafuchi area and carried to Okama Shrine. On the final day, seawater is boiled in an iron flat kettle that has been placed in a larger pot.<br><br>The larger pot is heated by a fire started with flint, and the flat kettle is filled with sea water strained through the seaweed. The process of straining seawater with seaweed is characteristic of Shiogama salt-production methods. This salt is then offered before the altars at Okama Shrine and Shiogama Shrine.</p>
+							</div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img6"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img7"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left">
+							<div class="contents_block_title"><img src="~/ResourcesTemplate/img/title10.svg" alt="伝統の製法"><p class="kerning en0">TRADITIONAL PROCESS</p></div>
+						</div>
+						<div class="contents_block_right">
+							<div class="about_title"><p class="kerning ja0">塩竈の藻塩の製法</p></div>
+							<div class="about_text">
+								<p class="kerning">弊社の塩作りは、塩土老翁神の製塩法を踏襲するものです。<br><br>塩竈沖の潮水を神馬藻で濾し、竈でじっくり炊いていきます。丁寧にアクを取りながら10時間以上炊き、火を止めて一晩静かに寝かせると、塩分濃度の高い鹹水（かんすい）となります。このとき、気温や濃度等の条件が揃うと、鹹水中に薄片状の結晶が生じます。結晶の生成は自然にゆだね、この工程には人の手を加えません。<br><br>こうしてできた結晶が「竈炊キ結晶（選別品）」です。また、結晶をすくった後の鹹水をさらに１日炊いたものが「竈炊キ藻塩（選別品）」となります。</p>
+								<div></div>
+								<p class="kerning">Our company’s salt production emulates those techniques taught by Shiotsuchiojinokami, the God of the Tides. Seawater from Shiogama is filtered through seaweed, then is carefully boiled in a flat kettle. Impurities are thoroughly removed over the eleven hours that the water is boiled, then after the fire is extinguished and the kettle left to cool for one night the crystalized salt is finished.<br><br>Salt prepared in this manner is called Kamadodaki Kessho, or “Kamado-boiled crystals.” A kamado is a type of traditional Japanese stove. The brine left over after the crystals have been scooped out is boiled for another day and becomes pure white Kamadodaki Moshio “Kamado-boiled seaweed salt.”</p>
+							</div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img8"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img9"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_block_left">
+							<div class="contents_block_title"><img src="~/ResourcesTemplate/img/title11.svg" alt="特徴と味わい"><p class="kerning en0">FEATURES & TASTE</p></div>
+						</div>
+						<div class="contents_block_right">
+							<div class="about_title"><p class="kerning ja0">塩竈の藻塩の味わい</p></div>
+							<div class="about_text">
+								<p class="kerning">手間暇をかけて炊き上げた藻塩は雑味が少なく、まろやかで上品な味わいが特徴です。海鮮料理や天ぷら、サラダ、ステーキなど、どんな料理に合わせても食材の魅力を引き出してくれます。<br><br>サクサクした歯ざわりを楽しめる「竈炊キ結晶」と軽い口どけの「竈炊キ藻塩」。2種類の『塩竈の藻塩』の味の違いをぜひお楽しみ下さい。</p>
+								<div></div>
+								<p class="kerning">The taste of hand-prepared seaweed salt is gentle and refined. The salt brings out the unique tastes of ingredients and pairs well with many different types of foods like seafood, tempura, salads, and steaks. Through the lightly crunchy feeling of the “kamado-boiled crystals” that slowly melt in your mouth you can savor the deep flavor of the salt. The “kamado-boiled seaweed salt” is not bitter, but instead has a deeply appealing mild flavor.</p>
+							</div>
+						</div><div class="clear"></div>
+					</div>
+				</div>
+
+
+
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img0"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contents_block scroll_element scroll_off">
+					<div class="contents_block_inner">
+						<div class="contents_img">
+							<div class="contents_img_inner">
+								<div class="detail_img detail_img1"><img src="~/ResourcesTemplate/img/transparent0.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+
+	</div>
+</div>

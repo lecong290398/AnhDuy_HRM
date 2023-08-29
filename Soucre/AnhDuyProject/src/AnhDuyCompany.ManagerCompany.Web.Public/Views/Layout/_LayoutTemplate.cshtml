@@ -109,7 +109,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
             <div class="menu_inner opa">
                 <div class="menu_bg"></div>
                 <div class="menu_block">
-                    <a href="index.html" class="menu_list opa link">
+                    <a href="/Home/HomeIndex" class="menu_list opa link">
                         <div><p class="kerning">TRANG CHỦ</p></div>
                         <div>
                             <p class="kerning en0">HOME</p>
@@ -118,7 +118,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="product.html" class="menu_list opa link">
+                    <a href="/product" class="menu_list opa link">
                         <div><p class="kerning">SẢN PHẨM</p></div>
                         <div>
                             <p class="kerning en0">PRODUCT</p>
@@ -127,7 +127,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="about.html" class="menu_list opa link">
+                    <a href="/about" class="menu_list opa link">
                         <div><p class="kerning">CHÚNG TÔI ?</p></div>
                         <div>
                             <p class="kerning en0">ABOUT</p>
@@ -136,7 +136,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="recipe.html" class="menu_list opa link">
+                    <a href="/recipe" class="menu_list opa link">
                         <div><p class="kerning">CÔNG THỨC</p></div>
                         <div>
                             <p class="kerning en0">RECIPE</p>
@@ -145,7 +145,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="column.html" class="menu_list opa link">
+                    <a href="/column" class="menu_list opa link">
                         <div><p class="kerning">TIỂU SỬ</p></div>
                         <div>
                             <p class="kerning en0">COLUMN</p>
@@ -154,7 +154,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="shop.html" class="menu_list opa link">
+                    <a href="/shop" class="menu_list opa link">
                         <div><p class="kerning">CỬA HÀNG</p></div>
                         <div>
                             <p class="kerning en0">SHOP</p>
@@ -163,7 +163,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="faq.html" class="menu_list opa link">
+                    <a href="/faq" class="menu_list opa link">
                         <div><p class="kerning">FAQ</p></div>
                         <div>
                             <p class="kerning en0">FAQ　</p>
@@ -172,7 +172,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="company.html" class="menu_list opa link">
+                    <a href="/Company" class="menu_list opa link">
                         <div><p class="kerning">CÔNG TY</p></div>
                         <div>
                             <p class="kerning en0">COMPANY</p>
@@ -181,7 +181,7 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
                         </div>
                         <div class="clear"></div>
                     </a>
-                    <a href="contact/index.html" class="menu_list opa link">
+                    <a href="/contact" class="menu_list opa link">
                         <div><p class="kerning">LIÊN HỆ</p></div>
                         <div>
                             <p class="kerning en0">CONTACT</p>
@@ -201,12 +201,9 @@ Những sản phẩm tuyệt vời từ hạt gạo qua bàn tay của người 
             </div>
         </div>
         <!--/CONTENTS/-->
-        <div id="top" class="contents">
-            <!--/HOME/-->
-            <div id="home" class="contents_inner">
+       
                 @RenderBody()
-            </div>
-        </div>
+         
 
         <!--/FOOTER/-->
         @await Html.PartialAsync("~/Views/Layout/_FooterTemlate.cshtml")
