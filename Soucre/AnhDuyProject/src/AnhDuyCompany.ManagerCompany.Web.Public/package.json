@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
+    "eslint": "^8.48.0",
     "globby": "^9.2.0",
     "gulp": "^4.0.1",
     "gulp-clean-css": "^4.2.0",
@@ -53,8 +54,8 @@
     "gulp-uglify-es": "^1.0.4",
     "merge-stream": "^1.0.1",
     "postcss-url": "^9.0.0",
+    "prettier": "^2.3.2",
     "rimraf": "^2.6.3",
-    "yarn": "^1.15.0",
-    "prettier": "^2.3.2"
+    "yarn": "^1.15.0"
   }
 }
